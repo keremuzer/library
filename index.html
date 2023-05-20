@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>Library</header>
+  <main>
+    <button class="add">Add Book +</button>
+
+    <!-- book adding form -->
+    <form id="form" style="display: none;">
+      <div class="form-group">
+        <input type="text" id="title" placeholder="Title" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="author" placeholder="Author" required>
+      </div>
+      <div class="form-group">
+        <input type="number" min="1" id="pages" placeholder="Pages" required>
+      </div>
+      <div class="submit">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+    <div class="books">
+      <div class="book" id="card" style="display: none;">
+        <h2 class="title">The Hobbit</h2>
+        <div class="author">J.R.R. Tolkien</div>
+        <div class="pages">295 pages</div>
+        <div><label for="read">Read</label>
+        <input type="checkbox" id="read"></div>
+      </div>
+      <div class="book">
+        <h2 class="title">The Hobbit</h2>
+        <div class="author">J.R.R. Tolkien</div>
+        <div class="pages">295 pages</div>
+        <div><label for="read">Read</label>
+        <input type="checkbox" id="read"></div>
+      </div>
+      <div class="book">
+        <h2 class="title">The Hobbit</h2>
+        <div class="author">J.R.R. Tolkien</div>
+        <div class="pages">295 pages</div>
+        <div><label for="read">Read</label>
+        <input type="checkbox" id="read"></div>
+      </div>
+      <div class="book">
+        <h2 class="title">The Hobbit</h2>
+        <div class="author">J.R.R. Tolkien</div>
+        <div class="pages">295 pages</div>
+        <div><label for="read">Read</label>
+        <input type="checkbox" id="read"></div>
+      </div>
+      <div class="book">
+        <h2 class="title">The Hobbit</h2>
+        <div class="author">J.R.R. Tolkien</div>
+        <div class="pages">295 pages</div>
+        <div><label for="read">Read</label>
+        <input type="checkbox" id="read"></div>
+      </div><div class="book">
+        <h2 class="title">The Hobbit</h2>
+        <div class="author">J.R.R. Tolkien</div>
+        <div class="pages">295 pages</div>
+        <div><label for="read">Read</label>
+        <input type="checkbox" id="read"></div>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
